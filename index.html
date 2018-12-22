@@ -1,0 +1,254 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+		<meta content="telephone=no" name="format-detection" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<title>圣诞节</title>
+		<script src="js/jquery-1.10.2.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/swiper.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/swiper.animate1.0.2.min.js" type="text/javascript" charset="utf-8"></script>
+		
+		<link rel="stylesheet" type="text/css" href="css/swiper.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<link rel="stylesheet" type="text/css" href="css/animate.min.css"/>
+	</head>
+	<body>
+		<!--音乐-->
+		<audio src="music.mp3" id="music" loop="loop"></audio>
+		<!--<img class="music on" src="img/music-on.png" />-->
+		<p style="position: absolute;top: 0;left: 0;opacity: 0;">母亲节快乐</p>
+		<!--加载动画-->
+		<div class="loading">
+			<div class="loading-main">
+				<div class="loading-img">
+					<img src="img/loading-bg.png"/>
+					<img class="po" src="img/loading-moon.png"/>
+				</div>
+				<div class="loading-num"><span>1</span>%</div>
+			</div>
+			
+		</div>
+		<!--<img class="arrdown" src="img/arr-down.png"/>-->
+		<div class="swiper-container mc">
+			<img class="logo-t-l" src="img/logo-t-l.png"/>
+			<img class="logo-t-r" src="img/logo-t-r.png"/>
+			<img class="logo-b-l" src="img/logo-b-l.png"/>
+			<img class="logo-b-r" src="img/logo-b-r.png"/>
+			<div class="swiper-wrapper">
+				<!--场景1-->
+				<div class="swiper-slide con1">
+					<div class="page1-sky">
+						<div class="page1-moon ani" swiper-animate-effect="bounceInUp" swiper-animate-duration="1s" swiper-animate-delay="0s">
+							<img class="ani infinite" swiper-animate-effect="yaobaiS" swiper-animate-duration="2s" swiper-animate-delay="0.9s" src="img/page1-moon.png" />
+						</div>
+						<img class="po ani infinite" swiper-animate-effect="piaofuX" swiper-animate-duration="6s" swiper-animate-delay="-2s" src="img/page1-cloud1.png"/>
+						<img class="po ani infinite" swiper-animate-effect="piaofuX" swiper-animate-duration="6s" swiper-animate-delay="0s" src="img/page1-cloud2.png"/>
+						<img class="po" src="img/page1-star1.png"/>
+						<img class="page1-star2 po ani infinite" swiper-animate-effect="swingInfi" swiper-animate-duration="4s" swiper-animate-delay="0s" src="img/page1-star2.png"/>
+						<img class="page1-star3 po ani infinite" swiper-animate-effect="swingInfi" swiper-animate-duration="4s" swiper-animate-delay="2s" src="img/page1-star3.png"/>
+						<img class="page1-star4 po ani infinite" swiper-animate-effect="swingInfi" swiper-animate-duration="4s" swiper-animate-delay="-1s" src="img/page1-star4.png"/>
+					</div>
+					<div class="page1-title">
+						<img class="ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.3s" swiper-animate-delay="1s" src="img/page1-title1.png"/>
+						<img class="po ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.3s" swiper-animate-delay="1s" src="img/page1-title2.png"/>
+					</div>
+					<img class="page1-snow" src="img/page1-snow.png"/>
+					<img class="page1-butt" src="img/page1-butt.png"/>
+				</div>
+				<!--场景2-->
+				<div class="swiper-slide con2">
+					<div class="page-snow page2-snow"></div>
+					<div class="page2-state">
+						<img src="img/page2-state.png"/>
+						<img class="po ani" swiper-animate-effect="fadeInRightBig" swiper-animate-duration="1.5s" swiper-animate-delay="0s" src="img/page2-car.png"/>
+						<img class="po" src="img/page2-tree.png"/>
+					</div>
+					<img class="page2-snow2" src="img/page2-snow2.png"/>
+					<img class="page2-snow3" src="img/page2-snow2.png"/>
+					<img class="page2-snow4" src="img/page2-snow2.png"/>
+					<div class="page2-txt ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="1s">
+						<img src="img/page2-txt1.png"/>
+						<img class="po ani infinite" swiper-animate-effect="flashInfi" swiper-animate-duration="4s" swiper-animate-delay="1.5s" src="img/page2-txt2.png"/>
+					</div>
+					
+				</div>
+				<!--场景3-->
+				<div class="swiper-slide con3">
+					<div class="page-snow page3-snow"></div>
+					<div class="page3-state">
+						<img src="img/page3-state.png"/>
+						<div class="po ani" swiper-animate-effect="slideInLeft" swiper-animate-duration="2s" swiper-animate-delay="-0.5s">
+							<img class="page3-car" src="img/page3-car.png"/>
+						</div>
+					</div>
+					<img class="page3-snow2" src="img/page2-snow2.png"/>
+					<img class="page3-snow3" src="img/page2-snow2.png"/>
+					<div class="page3-txt question">
+						<img src="img/page3-txt1.png"/>
+						<div class="txt-con" answer="1">
+							<img src="img/page3-txt2.png"/>
+							<img class="answer-right" src="img/right.png"/>
+						</div>
+						<div class="txt-con" answer="0">	
+							<img src="img/page3-txt3.png"/>
+							<img class="answer-right" src="img/right.png"/>
+						</div>
+						<div class="txt-con" answer="0">
+							<img src="img/page3-txt4.png"/>
+							<img class="answer-right" src="img/right.png"/>
+						</div>
+					</div>
+					
+					<img class="page3-txt-r answer-r" src="img/page3-txt-r.png"/>
+					<div class="page3-txt-w answer-w">
+						<img src="img/page3-txt-w.png"/>
+						<img class="cxks" src="img/cxks.png"/>
+					</div>
+				</div>
+				<!--场景4-->
+				<div class="swiper-slide con4">
+					<div class="page4-state">
+						<img src="img/page4-state.png"/>
+						<img class="page4-star po" src="img/page4-star.png"/>
+						<img class="po page4-wu" src="img/page4-wu.png"/>
+						<img class="po" src="img/page4-car.png"/>
+					</div>
+					<div class="page4-txt question">
+						<img src="img/page4-txt1.png"/>
+						<div class="txt-con" answer="0">
+							<img src="img/page4-txt2.png"/>
+							<img class="answer-right" src="img/right.png"/>
+						</div>
+						<div class="txt-con" answer="0">	
+							<img src="img/page4-txt3.png"/>
+							<img class="answer-right" src="img/right.png"/>
+						</div>
+						<div class="txt-con" answer="1">
+							<img src="img/page4-txt4.png"/>
+							<img class="answer-right" src="img/right.png"/>
+						</div>
+					</div>
+					<img class="page4-txt-r answer-r" src="img/page4-txt-r.png"/>
+					<div class="page4-txt-w answer-w">
+						<img src="img/page4-txt-w.png"/>
+						<img class="cxks" src="img/cxks.png"/>
+					</div>
+				</div>
+				<!--场景5-->
+				<div class="swiper-slide con5">
+					<div class="page-snow page5-snow"></div>
+					<div class="page5-state">
+						<img src="img/page5-state.png"/>
+						<img class="po ani" swiper-animate-effect="baotai" swiper-animate-duration="1.2s" swiper-animate-delay="0s" src="img/page5-car.png"/>
+					</div>
+					<img class="page5-snow2" src="img/page2-snow2.png"/>
+					<div class="page5-txt question">
+						<img src="img/page5-txt1.png"/>
+						<div class="txt-con" answer="1">
+							<img src="img/page5-txt2.png"/>
+							<img class="answer-right" src="img/right.png"/>
+						</div>
+						<div class="txt-con" answer="0">	
+							<img src="img/page5-txt3.png"/>
+							<img class="answer-right" src="img/right.png"/>
+						</div>
+						<div class="txt-con" answer="0">
+							<img src="img/page5-txt4.png"/>
+							<img class="answer-right" src="img/right.png"/>
+						</div>
+					</div>
+					<img class="page5-txt-r answer-r" src="img/page5-txt-r.png"/>
+					<div class="page5-txt-w answer-w">
+						<img src="img/page5-txt-w.png"/>
+						<img class="cxks" src="img/cxks.png"/>
+					</div>
+				</div>	
+				<!--场景6-->
+				<div class="swiper-slide con6">
+					<div class="page-snow page6-snow"></div>
+					<div class="page6-state">
+						<img src="img/page6-state.png"/>
+						<img class="po ani" swiper-animate-effect="cehua" swiper-animate-duration="1.5s" swiper-animate-delay="0s" src="img/page6-car.png"/>
+					</div>
+					<img class="page6-snow2" src="img/page2-snow2.png"/>
+					<div class="page6-txt question">
+						<img src="img/page6-txt1.png"/>
+						<div class="txt-con" answer="0">
+							<img src="img/page6-txt2.png"/>
+							<img class="answer-right" src="img/right.png"/>
+						</div>
+						<div class="txt-con" answer="0">	
+							<img src="img/page6-txt3.png"/>
+							<img class="answer-right" src="img/right.png"/>
+						</div>
+						<div class="txt-con" answer="1">
+							<img src="img/page6-txt4.png"/>
+							<img class="answer-right" src="img/right.png"/>
+						</div>
+					</div>
+					<img class="page6-txt-r answer-r" src="img/page6-txt-r.png"/>
+					<div class="page6-txt-w answer-w">
+						<img src="img/page6-txt-w.png"/>
+						<img class="cxks" src="img/cxks.png"/>
+					</div>
+				</div>	
+				<!--场景7-->
+				<div class="swiper-slide con7">
+					<img class="page7-txt ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1.5s" swiper-animate-delay="0s" src="img/page7-txt.png"/>
+					<div class="page7-sky">
+						<img src="img/page7-moon.png"/>
+						<img class="page7-cloud1 po" src="img/page7-cloud1.png"/>
+						<img class="page7-cloud2 po" src="img/page7-cloud2.png"/>
+						<img class="page7-star1 po" src="img/page7-star1.png"/>
+						<img class="page7-star2 po" src="img/page7-star2.png"/>
+						<img class="page7-star3 po" src="img/page7-star3.png"/>
+						<img class="page7-star4 po" src="img/page7-star4.png"/>
+					</div>
+					<img class="page7-child" src="img/page7-child.png"/>
+					<div class="page7-window">
+						<img src="img/page7-window.png"/>
+						<img class="po ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="1.5s" swiper-animate-delay="0.5s" src="img/page7-sdlr.png"/>
+					</div>
+				</div>	
+				
+			</div>
+			
+		</div>
+		
+		<div class="mask">
+			<div class="form">
+				<img class="form-img" src="img/form-img.png"/>
+				<form action="" method="post">
+					<div class="item">
+						<div class="tit">
+							<img src="img/form-name.png"/><span></span>
+						</div>
+						<input type="text" name="user" id="user" />
+					</div>
+					<div style="clear: both;"></div>
+					<div class="item">
+						<div class="tit">
+							<img src="img/form-tel.png"/><span></span>
+						</div>
+						<input type="text" name="tel" id="tel" />
+					</div>
+					<a id="sub">
+						<img src="img/form-butt.png"/>
+					</a>
+				</form>
+			</div>
+		</div>
+		
+		<div class="hb">
+			<canvas id="canvas"></canvas>
+		</div>
+		<div class="hint">
+			<div class="hint-c"><span class="hint-t"><span>长按屏幕分享海报</span></span></div>
+		</div>
+		
+	</body>
+</html>
